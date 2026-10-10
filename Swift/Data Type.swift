@@ -6,7 +6,7 @@ let pi: Double = 3.14159
 let floatValue: Float = 2.5
 let booleanValue: Bool = true
 let letter: Character = "A"
-let UInt: UInt = 42
+let uintValue: UInt = 42
 
 // collections data type
 
@@ -26,9 +26,11 @@ print(pi)
 print(floatValue)
 print(booleanValue)
 print(letter)
-print(UInt)
+print(uintValue)
 
 //printing the collections
+
+let optionalName: String? = "Ace"// optional data type with value
 
 print(fruits)
 print(se)
@@ -40,3 +42,22 @@ print(points)
 
 print("Name: \(name), Age: \(age)")
 print("Total Price: \(Float(age) + floatValue)")
+
+// printing optional value
+print(optionalName ?? "Default Name")
+
+//printing the type of the variable
+print(type(of: age))
+print(type(of: name))
+print(type(of: pi))
+print(type(of: floatValue))
+print(type(of: booleanValue))
+print(type(of: letter))
+print(type(of: uintValue))
+print(type(of: fruits))
+print(type(of: se))
+print(type(of: map))
+print(type(of: point))
+print(type(of: points))
+print(type(of: optionalValue))
+print(type(of: optionalName))
