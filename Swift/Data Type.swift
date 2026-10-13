@@ -8,6 +8,7 @@ let booleanValue: Bool = true
 let letter: Character = "A"
 let uintValue: UInt = 42
 
+
 // collections data type
 
 let fruits: [String] = ["Apple", "Banana", "Orange"]
